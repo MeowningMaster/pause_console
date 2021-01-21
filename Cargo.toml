@@ -6,5 +6,9 @@ edition = "2018"
 
 license = "MIT OR Apache-2.0"
 description = "Pauses the console"
+repository = "https://github.com/MeowningMaster/pause_console"
+keywords = ["console"]
+categories = ["command-line-utilities"]
+readme = "Readme.md"
 
 [dependencies]
