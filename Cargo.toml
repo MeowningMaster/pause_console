@@ -1,0 +1,10 @@
+[package]
+name = "pause_console"
+version = "0.1.0"
+authors = ["Andrii Semenystyi <meowningmaster@gmail.com>"]
+edition = "2018"
+
+license = "MIT OR Apache-2.0"
+description = "Pauses the console"
+
+[dependencies]
