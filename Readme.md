@@ -1,4 +1,7 @@
-# Usage
+## Description
+Crate that brings functionality similar to c++'s `system("pause")`
+
+## Usage
 ```rust
 use pause_console;
 ...
