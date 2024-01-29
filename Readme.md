@@ -1,17 +1,21 @@
 # Description
+
 Crate that brings functionality similar to c++'s `system("pause")`
 
 # Usage
-```rust
-use pause_console::*;
-...
 
-//print "Press Enter to continue..." then wait till Enter pressed
+```rust
+use pause_console::pause_console;
+
+// print "Press Enter to continue..." then wait till Enter pressed
 pause_console!();
 
-//same with custom message
+// same with custom message
 pause_console!("Sample message");
 
-//same with newlines
+// same with newlines
 pause_console!("\nSample message\n");
+
+// and you can format and output message
+pause_console!("Sample message: {}", 1);
 ```
