@@ -2,7 +2,7 @@
 name = "pause_console"
 version = "0.2.0"
 authors = ["Andrii Semenystyi <meowningmaster@gmail.com>"]
-edition = "2018"
+edition = "2021"
 
 license = "MIT OR Apache-2.0"
 description = "Pauses the console"
