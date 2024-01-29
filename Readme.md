@@ -13,9 +13,9 @@ pause_console!();
 // same with custom message
 pause_console!("Sample message");
 
-// same with newlines
-pause_console!("\nSample message\n");
-
 // and you can format and output message
 pause_console!("Sample message: {}", 1);
 ```
+
+# Caveats
+`pause_console!` does not prevent the user from entering characters other than `Enter`, they will be visible. This library is good for rapid prototyping or internal projects. For better user experience use [crossterm](https://lib.rs/crates/crossterm).
